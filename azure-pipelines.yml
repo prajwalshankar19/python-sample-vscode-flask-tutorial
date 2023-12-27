@@ -11,7 +11,7 @@ pool:
   vmImage: ubuntu-latest
 variables:
  - name: projectName
-   value: contoso
+   value: 343
 
 steps: 
 - bash: echo $(projectName)
